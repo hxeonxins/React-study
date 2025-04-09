@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App.jsx";
+import Element_ex from "./ch0409/Element_ex";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <Element_ex />
   </StrictMode>
 );
